@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(240, 234, 234, 0.875);
+width: 100%;
+}
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    background-color: #fff;
+    padding-left: 11%;
+   justify-content: space-between;
+}
+.left-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}   
+.right-nav{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.left-nav span{
+    position: relative;
+    z-index: 1;
+    left: 0.8rem;
+}
+.left-nav input{
+    position: relative;
+    left: -1.1rem;
+    width: 16rem; 
+    height: 2.2rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #e4e7f5;
+    text-indent: 2.4rem;
+    z-index: 0;
+    font-size: 0.9rem;
+}
+.left-nav input:hover{
+    font-size: 1.1rem;
+    background-color: #fff;
+
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: fit-content;
+    padding: 0 1rem;
+    text-align: center;
+    
+}
+.icon:first-child{
+   
+}
+.icon:last-child{
+   
+}
+.icon:hover{
+cursor: pointer;
+}
+.body-main{
+    display: flex;
+    flex-direction: row;
+    width: 78%;
+    margin: auto;
+}
+
+.left-content{
+margin-right: 1%;
+margin-top: 1.5%;
+    
+ width: 20%; 
+    
+}
+ .my-info [src*="dp"], .my-info h3, .my-info p
+{
+    position: relative;
+    bottom: 4vh;
+}
+.left-content .my-info{
+    text-align: center;
+}
+.left-content .connections{
+    padding: 2.5rem 0.8rem;
+
+}
+.connections-left{
+    float: left;
+}
+.connections-right{
+    float: right;
+}
+.access{
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+    clear: both;
+    padding: 0.5rem 0.8rem;
+    
+}
+.myclass{
+    padding: 0.5rem 0.8rem;
+ border-top: 1px solid rgba(128, 128, 128, 0.3);   
+}
+.network{
+    position: sticky;
+    top: 0;
+}
+.middle-content{
+    display: flex;
+    flex-direction: column;
+    
+    width: 50%;
+    margin-top: 1rem;
+    margin-right: 1%;
+}
+.right-content{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    margin-top: 1rem;
+    margin-right: 2rem;;
+}
+.create-post{
+    margin-bottom: 0.5rem;
+    padding: 00.7rem;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+.create-post input{
+    width: 90%;
+    line-height: 2.5rem;
+    border-radius: 3rem;
+    text-indent: 3rem;
+    font-size: 17px;
+    font-weight: lighter;
+    position: relative;
+    top: -18px;
+    left: 3px;
+    
+}
+
+.create-post-media ul{
+    display: flex;
+    flex-direction: row;
+    gap:15%;
+} 
+
+ul{
+    list-style: none;
+}
+.right-content .news{
+  padding: 1.7rem; 
+  line-height: 2rem; 
+  
+    
+}
+.right-content .adv{
+    position: sticky;
+    top: 0;
+}
+
+.right-content .adv img{
+   width: 100%;
+   text-align: center;
+  
+}
+.right-content .links{
+    padding: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    display: block;
+    position: sticky;
+  top: 240px;
+}
+ .body-main> div> div{
+    border-radius: .5rem;
+    background-color: #fff;
+    margin-bottom: 0.5rem;
+  
+box-shadow: 0.1px 0.1px 0.1px rgba(128, 128, 128, 0.566),0.3px 1px 1px grey,0.3px 1px 1px grey,0.3px 1px 1px grey;
+}
+a{
+    text-decoration: none;
+}
+.post1, .post2, .post3{
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    text-align: justify;
+}
+.friend-info{
+   display: flex;
+}
+.fri-name{
+    margin-left:10px ;
+}
+.follow{
+    margin-left: 130px;
+}
+img[src="/images/friend-dp.png"]{
+    width: 4rem;
+    
+}
+img[src*="friend-post"]{
+    width: 100%;
+}
+.icon-friend-post a{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+
+
+
+
